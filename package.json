@@ -1,0 +1,49 @@
+{
+  "name": "template-rrrt",
+  "version": "1.0.0",
+  "description": "Example with React, Redux, Router and TypeScript",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --config config/webpack.tsnode.ts --mode development",
+    "lint": "node --max-old-space-size=4096 node_modules/typescript/bin/tsc --noEmit -p ./src/tsconfig.json && tslint -p ./tslint.json",
+    "build": "webpack --config config/webpack.tsnode.ts --mode production"
+  },
+  "author": "Yasich217",
+  "license": "ISC",
+  "dependencies": {
+    "bluebird": "^3.7.2",
+    "lodash": "^4.17.15",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "react-redux": "^7.1.3",
+    "react-router-dom": "^5.1.2",
+    "redux": "^4.0.4",
+    "redux-thunk": "^2.3.0"
+  },
+  "devDependencies": {
+    "@types/html-webpack-plugin": "^3.2.1",
+    "@types/react": "^16.9.16",
+    "@types/react-dom": "^16.9.4",
+    "@types/react-redux": "^7.1.5",
+    "@types/react-router-dom": "^5.1.3",
+    "@types/webpack": "^4.41.0",
+    "@types/webpack-env": "^1.14.1",
+    "css-loader": "^3.3.0",
+    "json-loader": "^0.5.7",
+    "less": "^3.10.3",
+    "less-loader": "^5.0.0",
+    "mini-css-extract-plugin": "^0.8.0",
+    "ts-loader": "^6.2.1",
+    "tslint": "^5.20.1",
+    "url-loader": "^3.0.0",
+    "clean-webpack-plugin": "^3.0.0",
+    "html-webpack-plugin": "^3.2.0",
+    "redux-devtools-extension": "^2.13.8",
+    "source-map-loader": "^0.2.4",
+    "ts-node": "^8.5.4",
+    "typescript": "^3.7.3",
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.10",
+    "webpack-dev-server": "^3.9.0"
+  }
+}

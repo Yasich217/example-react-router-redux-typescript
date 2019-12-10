@@ -1,0 +1,16 @@
+{
+  "extends": "../tsconfig.json",
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "lodash/*": [
+        "node_modules/@types/lodash-es/*"
+      ]
+    }
+  },
+  "includes": [
+    "**/*.ts",
+    "**/*.tsx",
+  ],
+  "exclude": []
+}
